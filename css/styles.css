@@ -302,6 +302,9 @@ button {
     .videoSec{
         height: 40vh;
     }
+    .container{
+        text-align:center;
+    }
     .videoSec__texto {
         font-size: 3em;
     }
@@ -319,6 +322,9 @@ button {
 @media (min-width: 577px) and (max-width: 992px) {
     .videoSec{
         height: 60vh;
+    }
+    .container{
+        text-align:center;
     }
     .container {
         width: 100%;
