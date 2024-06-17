@@ -273,6 +273,10 @@ button {
         margin-bottom: 10px;
         display: block;
     }
+    .mb-0{
+        text-align:center;
+    }
+    
     .videoSec{
         height: 25vh;
     }
