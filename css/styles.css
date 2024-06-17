@@ -1,0 +1,339 @@
+:root {
+	--color--tema--primario: #008FFD;
+	--color--tema--primario-accent: #CBE8FF;
+	--c-bg-primary: #D6DAE0;
+	--c-bg-secondary: #EAEBEC;
+	--c-bg-tertiary: #FDFDFD;
+	--c-text-primary: #1F1F25;
+	--c-text-secondary: #999FA6;
+}
+/* Estilos generales */
+body {
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos para la navegación */
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.navbar__brand img {
+    height: 80px;
+}
+.navbar__toggler {
+    border: none;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+.navbar-nav .nav-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ce9e9e;
+}
+/* Estilos específicos para la sección de video */
+.videoSec {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+.videoSec__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+}
+.videoSec__texto {
+    color: #ce9e9e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+}
+.videoSec__link {
+    text-decoration: none;
+}
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Estilos para la sección de "momento" */
+#momento {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+#momento .display-4 {
+    color: #333;
+    font-weight: bold;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+.grid-item img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.grid-item span {
+    color: #b88c78;
+    font-weight: bold;
+    text-decoration: none;
+}
+.mb-0{
+    text-align: left;
+}
+
+
+/* Ajustes para la sección de "Nosotros" */
+.nos {
+    padding: 40px; 
+    margin: 20px auto; 
+    background-color: #c5b7b742; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+/* Estilos para el texto dentro de la sección #nos */
+.nos h1,
+.nos h3 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+.nos img {
+    display: block; 
+    margin: 0 auto 20px; 
+    width: 100%; 
+    height: 500px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/**/
+button {
+	font: inherit;
+	cursor: pointer;
+	&:focus {
+		outline: 0;
+	}
+}
+
+
+.calendario {
+	width: 95%;
+	max-width: 370px;
+	background-color: var(--c-bg-tertiary);
+	border-radius: 10px;
+	/* box-shadow: 0 0 2px 0 rgba(#000, .2), 0 5px 10px 0 rgba(#000, .1); */
+	padding: 1rem;
+    margin-left: 40%;
+}
+
+.calendario-top {
+	margin-bottom: 1rem;
+}
+
+
+.tag {
+	margin-right: .5rem;
+	margin-top: .5rem;
+	border: 0;
+	background-color: var(--c-bg-secondary);
+	border-radius: 10px;
+	padding: .5em .75em;
+	font-weight: 600;
+}
+
+.month-selector {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.arrow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	background-color:#FFF;
+	border-radius: 12px;
+	width: 2.5rem;
+	height: 2.5rem;
+	box-shadow: 0 0 2px 0 rgba(#000,.25), 0 0 10px 0 rgba(#000, .15);
+}
+
+.month-name {
+	font-weight: 600;
+}
+
+.calendario-calendar {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-row-gap: 1rem;
+}
+
+.day, .date {
+	justify-self: center;
+}
+
+.day {
+	color: var(--c-text-secondary);
+	font-size: .875em;
+	font-weight: 500;
+	justify-self: center;
+}
+
+.date {
+	border: 0;
+	padding: 0;
+	width: 2.25rem;
+	height: 2.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	font-weight: 600;
+	border: 2px solid transparent;
+	background-color: transparent;
+	cursor: pointer;
+	&:focus {
+		outline: 0;
+		color: var(#008FFD);
+		border: 2px solid var(--color--tema--primario-accent);	
+	}	
+}
+
+.faded {
+	color: var(--c-text-secondary);
+}
+
+.current-day {
+	color: #FFF;
+	border-color: var(--color--tema--primario);
+	background-color: var(--color--tema--primario);
+	&:focus {
+		background-color: var(--color--tema--primario-accent);
+	}
+}
+
+.visita{
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.reservas{
+    justify-content: center;
+    text-align: center;
+}
+
+
+.reservas input{
+    margin-left: 200px;
+    width: 80%;}
+
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .videoSec{
+        height: 25vh;
+    }
+    .videoSec__texto {
+        font-size: 3em;
+    }
+    .videoSec__content {
+        padding: 0 10px;
+    }
+    .btn {
+        margin-top: 10px;
+    }   
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .calendario{
+        margin-left: 100%;
+    }
+}
+
+/* Ajustes adicionales para móviles */
+@media (max-width: 576px) {
+    .videoSec{
+        height: 40vh;
+    }
+    .videoSec__texto {
+        font-size: 3em;
+    }
+    .videoSec__content {
+        padding: 0 10px;
+    }
+    .btn {
+        margin-top: 10px;
+    }
+    .calendario{
+        margin-left: 100%;
+    }
+}
+/* Ajustes específicos para evitar descompaginación */
+@media (min-width: 577px) and (max-width: 992px) {
+    .videoSec{
+        height: 60vh;
+    }
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar__brand img {
+        height: 60px;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    .navbar-nav .nav-link {
+        padding-left: 15px;
+    }
+
+
+}
