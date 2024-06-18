@@ -328,7 +328,7 @@ footer {
 @media (min-width: 768px) and (max-width: 1200px) {
 	.calendario {
 		width: 80%;
-		margin: 0 auto;
+		margin-left: 2%;
 	}
 	.reservas input {
 		margin-left: 0;
