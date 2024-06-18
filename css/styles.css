@@ -258,7 +258,7 @@ footer {
 
 /* Responsive Styles */
 
-/* Mobile Adjustments (max-width: 576px) */
+/* Mobile (max-width: 576px) */
 @media (max-width: 576px) {
 	.calendario {
 		width: 100%;
@@ -287,7 +287,7 @@ footer {
 	}
 }
 
-/* Small Tablets (min-width: 576px and max-width: 768px) */
+/* Tablets mas chicas (min-width: 576px and max-width: 768px) */
 @media (min-width: 576px) and (max-width: 768px) {
 	.calendario {
 		width: 100%;
@@ -324,11 +324,11 @@ footer {
 	}
 }
 
-/* Tablets and Small Laptops (min-width: 768px and max-width: 1200px) */
+/* Tablets (min-width: 768px and max-width: 1200px) */
 @media (min-width: 768px) and (max-width: 1200px) {
 	.calendario {
 		width: 80%;
-		margin-left: 2%;
+		margin-left: 25%;
 	}
 	.reservas input {
 		margin-left: 0;
@@ -357,12 +357,11 @@ footer {
 		padding-left: 15px;
 	}
 }
-
-/* Larger Devices (max-width: 1200px) */
+/* Mas grandes (max-width: 1200px) */
 @media (max-width: 1200px) {
 	.calendario {
 		width: 80%;
-		margin: 0 auto;
+		margin-left: 35%;
 	}
 	.reservas input {
 		margin-left: 0;
