@@ -152,7 +152,6 @@ button {
 	}
 }
 
-
 .calendario {
 	width: 95%;
 	max-width: 370px;
@@ -160,13 +159,12 @@ button {
 	border-radius: 10px;
 	/* box-shadow: 0 0 2px 0 rgba(#000, .2), 0 5px 10px 0 rgba(#000, .1); */
 	padding: 1rem;
-    margin-left: 40%;
+	margin: 0 auto;
 }
 
 .calendario-top {
 	margin-bottom: 1rem;
 }
-
 
 .tag {
 	margin-right: .5rem;
@@ -180,7 +178,7 @@ button {
 
 .month-selector {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -189,7 +187,7 @@ button {
 	align-items: center;
 	justify-content: center;
 	border: 0;
-	background-color:#FFF;
+	background-color: #FFF;
 	border-radius: 12px;
 	width: 2.5rem;
 	height: 2.5rem;
@@ -233,7 +231,7 @@ button {
 	&:focus {
 		outline: 0;
 		color: var(#008FFD);
-		border: 2px solid var(--color--tema--primario-accent);	
+		border: 2px solid var(--color--tema--primario-accent);
 	}	
 }
 
@@ -250,20 +248,66 @@ button {
 	}
 }
 
-.visita{
-    text-align: center; 
-    margin-bottom: 20px; 
+.visita {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-.reservas{
-    justify-content: center;
-    text-align: center;
+.reservas {
+	justify-content: center;
+	text-align: center;
 }
 
+.reservas input {
+	margin-left: 200px;
+	width: 80%;
+}
 
-.reservas input{
-    margin-left: 200px;
-    width: 80%;}
+/* Responsive Styles */
+@media (max-width: 1200px) {
+	.calendario {
+		width: 80%;
+	}
+	.reservas input {
+		margin-left: 0;
+		width: 90%;
+	}
+}
+
+@media (max-width: 992px) {
+	.calendario {
+		width: 90%;
+	}
+	.reservas input {
+		width: 95%;
+	}
+}
+
+@media (max-width: 768px) {
+	.calendario {
+		width: 100%;
+		max-width: none;
+	}
+	.calendario-calendar {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.visita h3 {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.calendario {
+		width: 100%;
+		max-width: none;
+	}
+	.calendario-calendar {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.visita h3 {
+		font-size: 0.875rem;
+	}
+}
 
 
 /* Ajustes para dispositivos móviles */
@@ -292,10 +336,7 @@ button {
     .grid-container {
         grid-template-columns: 1fr;
     }
-    .calendario{
-        margin-left: 100%;
-    }
-}
+
 
 /* Ajustes adicionales para móviles */
 @media (max-width: 576px) {
@@ -314,9 +355,7 @@ button {
     .btn {
         margin-top: 10px;
     }
-    .calendario{
-        margin-left: 100%;
-    }
+
 }
 /* Ajustes específicos para evitar descompaginación */
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -344,12 +383,7 @@ button {
     .navbar-nav .nav-link {
         padding-left: 15px;
     }
-	.calendario {
-		width: 80%;
-	}
-	.reservas input {
-		margin-left: 0;
-		width: 90%;
-	}
 
+
+}
 }
