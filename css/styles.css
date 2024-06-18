@@ -269,7 +269,7 @@ button {
 	.calendario {
 		width: 100%;
 		max-width: none;
-        margin-left: 22%;
+        margin-left: 2%;
 	}
 	.calendario-calendar {
 		grid-template-columns: repeat(3, 1fr);
@@ -322,6 +322,7 @@ button {
     .calendario {
 		width: 100%;
 		max-width: none;
+        margin-left: 2%;
 	}
 	.calendario-calendar {
 		grid-template-columns: repeat(4, 1fr);
@@ -357,6 +358,7 @@ button {
     }
     .calendario {
 		width: 80%;
+        margin-left: 2%;
 	}
 	.reservas input {
 		margin-left: 0;
@@ -367,6 +369,7 @@ button {
 /* Mas grandes (max-width: 1200px) */
 @media (max-width: 1200px) {
 	.calendario {
+        margin-left: 2%;
 		width: 80%;
 	}
 	.reservas input {
@@ -378,6 +381,7 @@ button {
 @media (max-width: 992px) {
 	.calendario {
 		width: 90%;
+        
 	}
 	.reservas input {
 		width: 95%;
