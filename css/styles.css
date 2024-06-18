@@ -267,7 +267,7 @@ button {
 
 
 /* Ajustes para dispositivos móviles */
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .navbar-nav .nav-item {
         margin-left: 0;
         margin-bottom: 10px;
@@ -319,7 +319,7 @@ button {
     }
 }
 /* Ajustes específicos para evitar descompaginación */
-@media (min-width: 577px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .videoSec{
         height: 60vh;
     }
@@ -344,6 +344,12 @@ button {
     .navbar-nav .nav-link {
         padding-left: 15px;
     }
-
+	.calendario {
+		width: 80%;
+	}
+	.reservas input {
+		margin-left: 0;
+		width: 90%;
+	}
 
 }
