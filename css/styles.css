@@ -263,39 +263,8 @@ button {
 	width: 80%;
 }
 
-/* Responsive Styles */
-@media (max-width: 1200px) {
-	.calendario {
-		width: 80%;
-	}
-	.reservas input {
-		margin-left: 0;
-		width: 90%;
-	}
-}
 
-@media (max-width: 992px) {
-	.calendario {
-		width: 90%;
-	}
-	.reservas input {
-		width: 95%;
-	}
-}
-
-@media (max-width: 768px) {
-	.calendario {
-		width: 100%;
-		max-width: none;
-	}
-	.calendario-calendar {
-		grid-template-columns: repeat(4, 1fr);
-	}
-	.visita h3 {
-		font-size: 1rem;
-	}
-}
-
+/* Celulares (max-width: 576px) */
 @media (max-width: 576px) {
 	.calendario {
 		width: 100%;
@@ -307,21 +276,34 @@ button {
 	.visita h3 {
 		font-size: 0.875rem;
 	}
+    .videoSec {
+        height: 40vh;
+    }
+    .container {
+        text-align: center;
+    }
+    .videoSec__texto {
+        font-size: 3em;
+    }
+    .videoSec__content {
+        padding: 0 10px;
+    }
+    .btn {
+        margin-top: 10px;
+    }
 }
 
-
-/* Ajustes para dispositivos móviles */
+/*Pequeñas Tablets (min-width: 576px and max-width: 768px) */
 @media (min-width: 576px) and (max-width: 768px) {
     .navbar-nav .nav-item {
         margin-left: 0;
         margin-bottom: 10px;
         display: block;
     }
-    .container{
-        text-align:center;
+    .container {
+        text-align: center;
     }
-    
-    .videoSec{
+    .videoSec {
         height: 25vh;
     }
     .videoSec__texto {
@@ -336,36 +318,25 @@ button {
     .grid-container {
         grid-template-columns: 1fr;
     }
-
-
-/* Ajustes adicionales para móviles */
-@media (max-width: 576px) {
-    .videoSec{
-        height: 40vh;
-    }
-    .container{
-        text-align:center;
-    }
-    .videoSec__texto {
-        font-size: 3em;
-    }
-    .videoSec__content {
-        padding: 0 10px;
-    }
-    .btn {
-        margin-top: 10px;
-    }
-
+    .calendario {
+		width: 100%;
+		max-width: none;
+	}
+	.calendario-calendar {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.visita h3 {
+		font-size: 1rem;
+	}
 }
-/* Ajustes específicos para evitar descompaginación */
+
+/* Tablets (min-width: 768px and max-width: 1200px) */
 @media (min-width: 768px) and (max-width: 1200px) {
-    .videoSec{
+    .videoSec {
         height: 60vh;
     }
-    .container{
-        text-align:center;
-    }
     .container {
+        text-align: center;
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
@@ -383,7 +354,31 @@ button {
     .navbar-nav .nav-link {
         padding-left: 15px;
     }
-
-
+    .calendario {
+		width: 80%;
+	}
+	.reservas input {
+		margin-left: 0;
+		width: 90%;
+	}
 }
+
+/* Mas grandes (max-width: 1200px) */
+@media (max-width: 1200px) {
+	.calendario {
+		width: 80%;
+	}
+	.reservas input {
+		margin-left: 0;
+		width: 90%;
+	}
+}
+
+@media (max-width: 992px) {
+	.calendario {
+		width: 90%;
+	}
+	.reservas input {
+		width: 95%;
+	}
 }
