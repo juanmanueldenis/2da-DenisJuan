@@ -346,7 +346,6 @@ footer {
 	.text-center {
         text-align: center;
     }
-
     .text-left {
         text-align: left;
     }
@@ -399,6 +398,21 @@ footer {
 	.navbar-nav .nav-link {
 		padding-left: 15px;
 	}
+	.text-left {
+        text-align: left;
+    }
+    .order-lg-1 {
+        order: 1;
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+    .justify-content-lg-end {
+        justify-content: center;
+    }
+    .footer .row .col-md-4 {
+        margin-bottom: 20px;
+    }
 }
 /* Mas grandes (max-width: 1200px) */
 @media (max-width: 1200px) {
