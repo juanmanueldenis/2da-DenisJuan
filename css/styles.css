@@ -107,7 +107,7 @@ footer {
     transform: translateY(-5px);
 }
 .grid-item img {
-    width: 100%;
+    width: 80%;
     height: 500px;
     border-radius: 10px;
 }
