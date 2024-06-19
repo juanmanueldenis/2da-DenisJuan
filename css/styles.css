@@ -119,8 +119,6 @@ footer {
 .mb-0{
     text-align: left;
 }
-
-
 /* Ajustes para la sección de "Nosotros" */
 .nos {
     padding: 40px; 
@@ -142,7 +140,6 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
-
 /* CALENDARIO */
 .calendario {
 	width: 95%;
@@ -152,11 +149,9 @@ footer {
 	padding: 1rem;
 	margin: 0 auto; /* Centramos el calendario */
 }
-
 .calendario-top {
 	margin-bottom: 1rem;
 }
-
 .tag {
 	margin-right: .5rem;
 	margin-top: .5rem;
@@ -166,13 +161,11 @@ footer {
 	padding: .5em .75em;
 	font-weight: 600;
 }
-
 .month-selector {
 	display: flex;
 	justify-content:center;
 	align-items: center;
 }
-
 .arrow {
 	display: flex;
 	align-items: center;
@@ -184,28 +177,23 @@ footer {
 	height: 2.5rem;
 	box-shadow: 0 0 2px 0 rgba(#000,.25), 0 0 10px 0 rgba(#000, .15);
 }
-
 .month-name {
 	font-weight: 600;
 }
-
 .calendario-calendar {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	grid-row-gap: 1rem;
 }
-
 .day, .date {
 	justify-self: center;
 }
-
 .day {
 	color: var(--c-text-secondary);
 	font-size: .875em;
 	font-weight: 500;
 	justify-self: center;
 }
-
 .date {
 	border: 0;
 	padding: 0;
@@ -220,75 +208,58 @@ footer {
 	background-color: transparent;
 	cursor: pointer;
 }
-
 .date:focus {
 	outline: 0;
 	color: var(#008FFD);
 	border: 2px solid var(--color--tema--primario-accent);
 }
-
 .faded {
 	color: var(--c-text-secondary);
 }
-
 .current-day {
 	color: #FFF;
 	border-color: var(--color--tema--primario);
 	background-color: var(--color--tema--primario);
 }
-
 .current-day:focus {
 	background-color: var(--color--tema--primario-accent);
 }
-
 .visita {
 	text-align: center;
 	margin-bottom: 20px;
 }
-
 .reservas {
 	justify-content: center;
 	text-align: center;
 }
-
 .reservas input {
 	margin-left: 200px;
 	width: 80%;
 }
-
-
 /* General styles */
 .bg-dark {
     background-color: #333;
 }
-
 .text-white {
     color: #fff;
 }
-
 .py-5 {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
-/* Flexbox alignment for the icons */
 .d-flex {
     display: flex;
 }
-
 .justify-content-lg-end {
     justify-content: flex-end;
 }
-
 .align-items-center {
     align-items: center;
 }
-
 .mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
-
 /* Responsive Styles */
 /* Mobile (max-width: 576px) */
 @media (max-width: 576px) {
@@ -312,6 +283,7 @@ footer {
 		font-size: 3em;
 	}
 	.grid-item img{
+		width: 100%;
 		height: 187px;
 	}
 	.videoSec__content {
@@ -320,8 +292,22 @@ footer {
 	.btn {
 		margin-top: 10px;
 	}
-}
+	.order-lg-1 {
+        order: 1;
+    }
 
+    .order-lg-2 {
+        order: 2;
+    }
+
+    .justify-content-lg-end {
+        justify-content: center;
+    }
+
+    .footer .row .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
 /* Tablets mas chicas (min-width: 576px and max-width: 768px) */
 @media (min-width: 576px) and (max-width: 768px) {
 	.calendario {
@@ -381,7 +367,6 @@ footer {
         margin-bottom: 20px;
     }
 }
-
 /* Tablets (min-width: 768px and max-width: 1200px) */
 @media (min-width: 768px) and (max-width: 1200px) {
 	.calendario {
@@ -426,7 +411,6 @@ footer {
 		width: 90%;
 	}
 }
-
 @media (max-width: 992px) {
 	.calendario {
 		width: 90%;
