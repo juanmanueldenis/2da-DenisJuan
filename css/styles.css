@@ -279,6 +279,9 @@ footer {
 	.videoSec__texto {
 		font-size: 3em;
 	}
+	.grid-item img{
+		height: 187px;
+	}
 	.videoSec__content {
 		padding: 0 10px;
 	}
