@@ -301,7 +301,7 @@ footer {
     }
 
     .justify-content-lg-end {
-        justify-content: center;
+        justify-content: end;
     }
 
     .footer .row .col-md-4 {
@@ -359,7 +359,7 @@ footer {
     }
 
     .justify-content-lg-end {
-        justify-content: center;
+        justify-content: end;
     }
 
     .footer .row .col-md-4 {
@@ -408,7 +408,7 @@ footer {
         order: 2;
     }
     .justify-content-lg-end {
-        justify-content: center;
+        justify-content: end;
     }
     .footer .row .col-md-4 {
         margin-bottom: 20px;
