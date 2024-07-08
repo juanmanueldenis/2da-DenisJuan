@@ -1,0 +1,12 @@
+{
+  "name": "2da-denisjuan",
+  "version": "1.0.0",
+  "description": "Preentrega Nro. 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "sass --watch scss/main.scss css/main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
