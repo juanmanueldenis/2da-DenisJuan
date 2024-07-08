@@ -42,6 +42,17 @@
     .footer .row .col-md-4 {
       margin-bottom: 20px;
     }
+    .event h2{
+      width: 100%;
+  }
+  .event img{
+    height: 200px;
+  }
+  @keyframes eventos {
+      0%   {background-color:var(--color-baner-a);}
+      50%  {background-color:var(--color-baner-b);}
+      100% {background-color:(--color-baner-c);}
+    }
   }
   /* Tablets mas chicas (min-width: 576px and max-width: 768px) */
   @media (min-width: 576px) and (max-width: 768px) {
@@ -95,6 +106,17 @@
     }
     .footer .row .col-md-4 {
       margin-bottom: 20px;
+    }
+    .event h2{
+      width: 100%;
+  }
+  .event img{
+    height: 200px;
+  }
+  @keyframes eventos {
+      0%   {background-color:var(--color-baner-a);}
+      50%  {background-color:var(--color-baner-b);}
+      100% {background-color:(--color-baner-c);}
     }
   }
   /* Tablets (min-width: 768px and max-width: 1200px) */
@@ -188,7 +210,17 @@
       width: 95%;
     }
 
-
+    .event h2{
+      width: 100%;
+  }
+  .event img{
+    height: 200px;
+  }
+  @keyframes eventos {
+      0%   {background-color:var(--color-baner-a);}
+      50%  {background-color:var(--color-baner-b);}
+      100% {background-color:(--color-baner-c);}
+    }
   }
   
   
