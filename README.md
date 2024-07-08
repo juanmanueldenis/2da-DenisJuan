@@ -10,6 +10,6 @@ El calendario es funcional pero aún no esta desarrollada la parte backend para 
 
 // Requisitos
 
-*Tener nodeJS instalado(https://nodejs.org/en/download/package-manager) 
+*Tener nodeJS instalado(https://nodejs.org/en/download/package-manager) <br>
 *Tener SASS instalado(https://github.com/kathgaro/assets/tree/sass?tab=readme-ov-file)
 
