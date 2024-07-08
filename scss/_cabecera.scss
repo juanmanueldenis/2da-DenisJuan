@@ -38,19 +38,8 @@
     // height: 100px;
     background-color: #4e399b93;
     position: relative;
-    animation-name: example;
+    animation-name: eventos;
     animation-duration: 25s;
     animation-iteration-count: infinite}
-@keyframes example {
-        0%   {background-color:var(--color-baner-a); left:0px; top:0px;}
-        10%  {background-color:(--color-baner-b); left:200px; top:0px;}
-        20%  {background-color:(--color-baner-c); left:400px; top:0px;}
-        30%  {background-color:(--color-baner-c); left:600px; top:0px;}
-        50%  {background-color:var(--color-baner-a); left:800px; top:0px;}
-        65%  {background-color:(--color-baner-b); left:600px; top:0px;}
-        80%  {background-color:(--color-baner-a);left:400px; top:0px;}
-        90%  {background-color:(--color-baner-b); left:200px; top:0px;}
-        100% {background-color:(--color-baner-a); left:0px; top:0px;}
-      }
 
       

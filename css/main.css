@@ -58,58 +58,11 @@
   width: 500px;
   background-color: rgba(78, 57, 155, 0.5764705882);
   position: relative;
-  animation-name: example;
+  animation-name: eventos;
   animation-duration: 25s;
   animation-iteration-count: infinite;
 }
 
-@keyframes example {
-  0% {
-    background-color: var(--color-baner-a);
-    left: 0px;
-    top: 0px;
-  }
-  10% {
-    background-color: --color-baner-b;
-    left: 200px;
-    top: 0px;
-  }
-  20% {
-    background-color: --color-baner-c;
-    left: 400px;
-    top: 0px;
-  }
-  30% {
-    background-color: --color-baner-c;
-    left: 600px;
-    top: 0px;
-  }
-  50% {
-    background-color: var(--color-baner-a);
-    left: 800px;
-    top: 0px;
-  }
-  65% {
-    background-color: --color-baner-b;
-    left: 600px;
-    top: 0px;
-  }
-  80% {
-    background-color: --color-baner-a;
-    left: 400px;
-    top: 0px;
-  }
-  90% {
-    background-color: --color-baner-b;
-    left: 200px;
-    top: 0px;
-  }
-  100% {
-    background-color: --color-baner-a;
-    left: 0px;
-    top: 0px;
-  }
-}
 /* Estilos generales */
 /* Estilos específicos para la sección de video */
 .videoSec {
@@ -516,9 +469,26 @@ footer {
   .footer .row .col-md-4 {
     margin-bottom: 20px;
   }
+  .event h2 {
+    width: 100%;
+  }
+  .event img {
+    height: 200px;
+  }
+  @keyframes eventos {
+    0% {
+      background-color: var(--color-baner-a);
+    }
+    50% {
+      background-color: var(--color-baner-b);
+    }
+    100% {
+      background-color: --color-baner-c;
+    }
+  }
 }
-/* Mas grandes (max-width: 1200px) */
-@media (max-width: 1200px) {
+/* Mas grandes (min-width: 1200px) */
+@media (min-width: 1200px) {
   .calendario {
     width: 80%;
     margin-left: 35%;
@@ -526,6 +496,53 @@ footer {
   .reservas input {
     margin-left: 0;
     width: 90%;
+  }
+  @keyframes eventos {
+    0% {
+      background-color: var(--color-baner-a);
+      left: 0px;
+      top: 0px;
+    }
+    10% {
+      background-color: --color-baner-b;
+      left: 200px;
+      top: 0px;
+    }
+    20% {
+      background-color: --color-baner-c;
+      left: 400px;
+      top: 0px;
+    }
+    30% {
+      background-color: --color-baner-c;
+      left: 600px;
+      top: 0px;
+    }
+    50% {
+      background-color: var(--color-baner-a);
+      left: 800px;
+      top: 0px;
+    }
+    65% {
+      background-color: --color-baner-b;
+      left: 600px;
+      top: 0px;
+    }
+    80% {
+      background-color: --color-baner-a;
+      left: 400px;
+      top: 0px;
+    }
+    90% {
+      background-color: --color-baner-b;
+      left: 200px;
+      top: 0px;
+    }
+    100% {
+      background-color: --color-baner-a;
+      left: 0px;
+      top: 0px;
+    }
   }
 }
 @media (max-width: 992px) {
