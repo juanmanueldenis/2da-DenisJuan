@@ -15,6 +15,9 @@
   --c-text-primary: #1F1F25;
   --c-text-secondary: #999FA6;
   --color--tema-terciario:#74090565;
+  --color-baner-a:#693b3b31;
+  --color-baner-b:#68afac2d;
+  --color-baner-c:#4e399b94;
 }
 
 /* Estilos para la navegación */
@@ -23,30 +26,24 @@
   padding: 10px 0;
   border-bottom: 1px solid #eee;
 }
-
-.navbar__brand img {
+.navbar-brand img {
   height: 80px;
 }
-
-.navbar__toggler {
+.navbartoggler {
   border: none;
 }
-
-.navbar-nav {
+.navbarnav {
   margin-left: auto;
 }
-
-.navbar-nav .nav-item {
+.navbarnav .nav-item {
   margin-left: 15px;
 }
-
-.navbar-nav .nav-link {
+.navbarnav .nav-link {
   color: #333;
   text-decoration: none;
   transition: color 0.3s ease;
 }
-
-.navbar-nav .nav-link:hover {
+.navbarnav .nav-link:hover {
   color: #ce9e9e;
 }
 
@@ -68,47 +65,47 @@
 
 @keyframes example {
   0% {
-    background-color: rgba(105, 59, 59, 0.7607843137);
+    background-color: var(--color-baner-a);
     left: 0px;
     top: 0px;
   }
   10% {
-    background-color: rgba(78, 57, 155, 0.5764705882);
+    background-color: --color-baner-b;
     left: 200px;
     top: 0px;
   }
   20% {
-    background-color: rgba(78, 57, 155, 0.5764705882);
+    background-color: --color-baner-c;
     left: 400px;
     top: 0px;
   }
   30% {
-    background-color: rgba(78, 57, 155, 0.5764705882);
+    background-color: --color-baner-c;
     left: 600px;
     top: 0px;
   }
   50% {
-    background-color: rgba(105, 59, 59, 0.7607843137);
+    background-color: var(--color-baner-a);
     left: 800px;
     top: 0px;
   }
   65% {
-    background-color: rgba(78, 57, 155, 0.5764705882);
+    background-color: --color-baner-b;
     left: 600px;
     top: 0px;
   }
   80% {
-    background-color: rgba(78, 57, 155, 0.5764705882);
+    background-color: --color-baner-a;
     left: 400px;
     top: 0px;
   }
   90% {
-    background-color: rgba(78, 57, 155, 0.5764705882);
+    background-color: --color-baner-b;
     left: 200px;
     top: 0px;
   }
   100% {
-    background-color: rgba(105, 59, 59, 0.7607843137);
+    background-color: --color-baner-a;
     left: 0px;
     top: 0px;
   }

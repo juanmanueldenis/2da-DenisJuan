@@ -3,27 +3,29 @@
     background-color: #fff;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
+    &-brand img{
+        height: 80px;
+    }
+    &toggler{
+        border: none;
+    }
+    &nav{
+        margin-left: auto;
+    }
+    &nav .nav-item{
+        margin-left: 15px;
+    }
+    &nav .nav-link{
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    &nav .nav-link:hover{
+        color: #ce9e9e;
+
+    }
   }
-  .navbar__brand img {
-    height: 80px;
-  }
-  .navbar__toggler {
-    border: none;
-  }
-  .navbar-nav {
-    margin-left: auto;
-  }
-  .navbar-nav .nav-item {
-    margin-left: 15px;
-  }
-  .navbar-nav .nav-link {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  .navbar-nav .nav-link:hover {
-    color: #ce9e9e;
-  }
+
 
 /*Eventos*/
 .event img{
@@ -40,15 +42,15 @@
     animation-duration: 25s;
     animation-iteration-count: infinite}
 @keyframes example {
-        0%   {background-color:#693b3bc2; left:0px; top:0px;}
-        10%  {background-color:#4e399b93; left:200px; top:0px;}
-        20%  {background-color:#4e399b93; left:400px; top:0px;}
-        30%  {background-color:#4e399b93; left:600px; top:0px;}
-        50% {background-color:#693b3bc2; left:800px; top:0px;}
-        65%  {background-color:#4e399b93; left:600px; top:0px;}
-        80%  {background-color:#4e399b93; left:400px; top:0px;}
-        90%  {background-color:#4e399b93; left:200px; top:0px;}
-        100%   {background-color:#693b3bc2; left:0px; top:0px;}
+        0%   {background-color:var(--color-baner-a); left:0px; top:0px;}
+        10%  {background-color:(--color-baner-b); left:200px; top:0px;}
+        20%  {background-color:(--color-baner-c); left:400px; top:0px;}
+        30%  {background-color:(--color-baner-c); left:600px; top:0px;}
+        50%  {background-color:var(--color-baner-a); left:800px; top:0px;}
+        65%  {background-color:(--color-baner-b); left:600px; top:0px;}
+        80%  {background-color:(--color-baner-a);left:400px; top:0px;}
+        90%  {background-color:(--color-baner-b); left:200px; top:0px;}
+        100% {background-color:(--color-baner-a); left:0px; top:0px;}
       }
 
       
