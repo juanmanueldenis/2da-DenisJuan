@@ -1,13 +1,14 @@
 /* Responsive Styles */
 /* Mobile (max-width: 576px) */
 @media (max-width: 576px) {
-    .calendario {
-      width: 100%;
-      max-width: none;
-    }
-    .calendario-calendar {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .calendario {
+    width: 80%;
+    margin-left: 25%;
+  }
+  .reservas input {
+    margin-left: 0;
+    width: 90%;
+  }
     .visita h3 {
       font-size: 0.875rem;
     }
