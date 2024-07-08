@@ -128,11 +128,10 @@
   @media (min-width: 768px) and (max-width: 1200px) {
     .calendario {
       width: 80%;
-      margin-left: 25%;
+      // margin-left: 25%;
     }
     .reservas input {
-      margin-left: 0;
-      width: 90%;
+      width: 60%;
     }
     .videoSec {
       height: 60vh;
@@ -188,10 +187,10 @@
   @media (min-width: 1200px) {
     .calendario {
       width: 80%;
-      margin-left: 35%;
+      // margin-left: 35%;
     }
     .reservas input {
-      margin-left: 0;
+      // margin-left: 0;
       width: 90%;
     }
     @keyframes eventos {
@@ -211,9 +210,7 @@
       width: 90%;
       margin: 0 auto;
     }
-    .reservas input {
-      width: 95%;
-    }
+
 
     .event h2{
       width: 100%;
