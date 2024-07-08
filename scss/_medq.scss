@@ -1,0 +1,170 @@
+/* Responsive Styles */
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+    .calendario {
+      width: 100%;
+      max-width: none;
+    }
+    .calendario-calendar {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .visita h3 {
+      font-size: 0.875rem;
+    }
+    .videoSec {
+      height: 40vh;
+    }
+    .container {
+      text-align: center;
+    }
+    .videoSec__texto {
+      font-size: 3em;
+    }
+    .grid-item img {
+      width: 100%;
+      height: 187px;
+    }
+    .videoSec__content {
+      padding: 0 10px;
+    }
+    .btn {
+      margin-top: 10px;
+    }
+    .order-lg-1 {
+      order: 1;
+    }
+    .order-lg-2 {
+      order: 2;
+    }
+    .justify-content-lg-end {
+      justify-content: end;
+    }
+    .footer .row .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  /* Tablets mas chicas (min-width: 576px and max-width: 768px) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .calendario {
+      width: 100%;
+      max-width: none;
+    }
+    .calendario-calendar {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .visita h3 {
+      font-size: 1rem;
+    }
+    .navbar-nav .nav-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .container {
+      text-align: center;
+    }
+    .videoSec {
+      height: 25vh;
+    }
+    .videoSec__texto {
+      font-size: 3em;
+    }
+    .videoSec__content {
+      padding: 0 10px;
+    }
+    .btn {
+      margin-top: 10px;
+    }
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .order-lg-1 {
+      order: 1;
+    }
+    .order-lg-2 {
+      order: 2;
+    }
+    .justify-content-lg-end {
+      justify-content: end;
+    }
+    .footer .row .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  /* Tablets (min-width: 768px and max-width: 1200px) */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .calendario {
+      width: 80%;
+      margin-left: 25%;
+    }
+    .reservas input {
+      margin-left: 0;
+      width: 90%;
+    }
+    .videoSec {
+      height: 60vh;
+    }
+    .container {
+      text-align: center;
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .navbar__brand img {
+      height: 60px;
+    }
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navbar-nav .nav-item {
+      margin-left: 0;
+    }
+    .navbar-nav .nav-link {
+      padding-left: 15px;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .order-lg-1 {
+      order: 1;
+    }
+    .order-lg-2 {
+      order: 2;
+    }
+    .justify-content-lg-end {
+      justify-content: end;
+    }
+    .footer .row .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  /* Mas grandes (max-width: 1200px) */
+  @media (max-width: 1200px) {
+    .calendario {
+      width: 80%;
+      margin-left: 35%;
+    }
+    .reservas input {
+      margin-left: 0;
+      width: 90%;
+    }
+  }
+  @media (max-width: 992px) {
+    .calendario {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .reservas input {
+      width: 95%;
+    }
+  }
+  
+  
+  
