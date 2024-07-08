@@ -1,7 +1,7 @@
 ## Preentrega Nro. 3
 ## Curso CODERHOUSE
 
-##Proyecto 
+<h3>Proyecto</h3> 
 El codigo esta listo para ser ejecutado en cualquier PC.
 
 El sitio web es responsive para varios tipos de pantalla. <br>
