@@ -61,6 +61,10 @@
       width: 100%;
       max-width: none;
     }
+    .reservas input {
+      margin-left: 0;
+      width: 90%;
+    }
     .calendario-calendar {
       grid-template-columns: repeat(4, 1fr);
     }
